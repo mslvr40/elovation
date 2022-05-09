@@ -1,10 +1,9 @@
 source 'https://rubygems.org'
 
-ruby '2.4.0'
+ruby '2.7.6'
 
 gem 'rails', '~> 5.1'
 
-gem 'pg'
 
 gem 'sass-rails', '~> 5.0'
 gem 'jquery-rails'
@@ -18,7 +17,7 @@ gem 'therubyracer', platforms: :ruby
 
 gem 'dynamic_form'
 gem 'elo'
-gem 'trueskill', github: 'saulabs/trueskill', require: 'saulabs/trueskill'
+gem 'trueskill', git: 'https://github.com/saulabs/trueskill', require: 'https://github.com/saulabs/trueskill'
 
 group :production do
   gem 'unicorn'
